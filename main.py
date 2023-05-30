@@ -1,4 +1,4 @@
-from termcolor import colored
+#from termcolor import colored
 
 # Fonction pour transposer une note
 def transposer(note, intervalle):
