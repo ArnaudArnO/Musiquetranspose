@@ -1,5 +1,5 @@
 # from termcolor import colored
-import transpose as tp
+from function import transpose as tp
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':

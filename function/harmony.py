@@ -1,4 +1,4 @@
-import note
+from function  import note
 
 def find_note_harmony(harmony):
     correspondances = {

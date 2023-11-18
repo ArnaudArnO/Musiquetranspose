@@ -1,5 +1,5 @@
-import harmony as hy
-import note
+from function import harmony as hy
+from function import note
 
 # Transpose One Note
 def transpose(note, interval):
@@ -22,4 +22,5 @@ def transpose_list(list_note, interval):
 
 
 def change_harmony_from_piano_to_sax(harmony):
-    return print("Piano [", harmony, "]  : ", transpose_list(hy.harmony_from_note(harmony), 3), "     Sax ", note.convert_note_letter(transpose_list(note.convert_note_letter(harmony),3), vers_note=True))
+    return print("Piano [", harmony, "]  : ", transpose_list(hy.harmony_from_note(harmony), 3), "     Sax ", note.convert_note_letter(transpose_list(
+        note.convert_note_letter(harmony), 3), vers_note=True))
